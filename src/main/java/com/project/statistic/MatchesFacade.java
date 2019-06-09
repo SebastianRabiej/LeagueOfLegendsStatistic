@@ -6,8 +6,6 @@ import lombok.AllArgsConstructor;
 
 import org.springframework.stereotype.Component;
 
-import java.util.stream.DoubleStream;
-
 import static io.vavr.control.Option.none;
 
 @Component

@@ -1,8 +1,8 @@
 package com.project.statistic;
 
-import lombok.Data;
+import io.vavr.collection.List;
 
-import java.util.List;
+import lombok.Data;
 
 @Data
 class MatchDto {

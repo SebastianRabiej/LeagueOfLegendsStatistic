@@ -25,4 +25,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     compile group: 'io.vavr', name: 'vavr', version: '0.10.0'
+    compile("io.vavr:vavr-jackson:0.10.0")
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.9'
+
 }

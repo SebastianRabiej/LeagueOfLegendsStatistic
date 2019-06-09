@@ -4,7 +4,6 @@ import io.vavr.collection.List;
 
 import lombok.Data;
 
-
 @Data
 class MatchListDto {
     private List<MatchReferenceDto> matches;
